@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Text</title>
+</head>
+<body>
+    <h1>Create Text</h1>
+    <form method="post">
+        {% csrf_token %}
+        <textarea name="content" rows="10" cols="30"></textarea><br>
+        <button type="submit">Save Text</button>
+    </form>
+</body>
+</html>
